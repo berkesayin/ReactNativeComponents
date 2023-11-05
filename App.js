@@ -1,11 +1,13 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import {MyActivityIndicator} from './app/components/MyActivityIndicator';
+// import {MyActivityIndicator} from './app/components/MyActivityIndicator';
+import {MyButton} from './app/components/MyButton';
 
 export const App = () => {
   return (
     <View style={styles.container}>
-      <MyActivityIndicator />
+      {/* <MyActivityIndicator /> */}
+      <MyButton />
     </View>
   );
 };
