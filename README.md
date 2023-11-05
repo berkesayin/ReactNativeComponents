@@ -12,26 +12,29 @@
 
 ### Core Components And APIs
 
-- ActivityIndicator
-- Button
-- FlatList
-- Image
-- ImageBackground
-- KeyboardAvoidingView
-- Modal
-- Pressable
-- RefreshControl
-- ScrollView
-- SectionList
-- StatusBar
-- Switch
-- Text
-- TextInput
-- TouchableHighlight
-- TouchableOpacity
-- TouchableWithoutFeedback
-- View
-- VirtualizedList
+**1. ActivityIndicator**
+
+- ActivityIndicator displays a circular loading indicator.
+
+2. Button
+3. FlatList
+4. Image
+5. ImageBackground
+6. KeyboardAvoidingView
+7. Modal
+8. Pressable
+9. RefreshControl
+10. ScrollView
+11. SectionList
+12. StatusBar
+13. Switch
+14. Text
+15. TextInput
+16. TouchableHighlight
+17. TouchableOpacity
+18. TouchableWithoutFeedback
+19. View
+20. VirtualizedList
 
 ### Android Components
 
