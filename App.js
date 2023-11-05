@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
 export const App = () => {
+  const [textInfo, setTextInfo] = useState('React Native Quickstart');
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello World!</Text>
+      <Text style={styles.text}>{textInfo}</Text>
     </View>
   );
 };
