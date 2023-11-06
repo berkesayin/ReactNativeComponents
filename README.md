@@ -38,6 +38,17 @@
 
 - A basic button component that should render nicely on any platform. Supports a minimal level of customization.
 
+```js
+<Button
+  onPress={onPressLearnMore}
+  title="Learn More"
+  color="#841584"
+  accessibilityLabel="Learn more about this purple button"
+/>
+```
+
+**Props for `Button` component:**
+
 | Prop Name               | Prop Type                     | Default Value | Value (E.G.) | Requirement |
 | :---------------------- | :---------------------------- | :------------ | :----------- | ----------- |
 | `onPress`               | `({nativeEvent: PressEvent})` | `-`           | `-`          | `required`  |
@@ -56,17 +67,6 @@
 | `nextFocusUp`           | `number`                      | `-`           | `-`          | `optional`  |
 | `testId`                | `string`                      | `-`           | `-`          | `optional`  |
 | `touchSoundDisabled`    | `boolean`                     | `-`           | `-`          | `optional`  |
-
-```js
-<Button
-  onPress={onPressLearnMore}
-  title="Learn More"
-  color="#841584"
-  accessibilityLabel="Learn more about this purple button"
-/>
-```
-
-**Props for `View` component:**
 
 **3. FlatList**
 **4. Image**
