@@ -1,5 +1,4 @@
 // ActivityIndicator
-// It displays a circular loading indicator.
 
 import React from 'react';
 import {ActivityIndicator, StyleSheet, View} from 'react-native';
