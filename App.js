@@ -5,7 +5,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MyFlatList} from './app/components/MyFlatList';
 // import {MyImage} from './app/components/MyImage';
 // import {MyImageBackground} from './app/components/MyImageBackground';
-import {MyKeyboardAvoidingView} from './app/components/MyKeyboardAvoidingView';
+// import {MyKeyboardAvoidingView} from './app/components/MyKeyboardAvoidingView';
+import {MyModal} from './app/components/MyModal';
 
 export const App = () => {
   return (
@@ -15,7 +16,8 @@ export const App = () => {
       {/* <MyFlatList /> */}
       {/* <MyImage /> */}
       {/* <MyImageBackground /> */}
-      <MyKeyboardAvoidingView />
+      {/* <MyKeyboardAvoidingView /> */}
+      <MyModal />
     </View>
   );
 };
