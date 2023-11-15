@@ -6,7 +6,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MyImage} from './app/components/MyImage';
 // import {MyImageBackground} from './app/components/MyImageBackground';
 // import {MyKeyboardAvoidingView} from './app/components/MyKeyboardAvoidingView';
-import {MyModal} from './app/components/MyModal';
+// import {MyModal} from './app/components/MyModal';
+import {MyPressable} from './app/components/MyPressable';
 
 export const App = () => {
   return (
@@ -17,7 +18,8 @@ export const App = () => {
       {/* <MyImage /> */}
       {/* <MyImageBackground /> */}
       {/* <MyKeyboardAvoidingView /> */}
-      <MyModal />
+      {/* <MyModal /> */}
+      <MyPressable />
     </View>
   );
 };
