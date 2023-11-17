@@ -7,7 +7,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MyImageBackground} from './app/components/MyImageBackground';
 // import {MyKeyboardAvoidingView} from './app/components/MyKeyboardAvoidingView';
 // import {MyModal} from './app/components/MyModal';
-import {MyPressable} from './app/components/MyPressable';
+// import {MyPressable} from './app/components/MyPressable';
+import {MyView} from './app/components/MyView';
 
 export const App = () => {
   return (
@@ -19,7 +20,8 @@ export const App = () => {
       {/* <MyImageBackground /> */}
       {/* <MyKeyboardAvoidingView /> */}
       {/* <MyModal /> */}
-      <MyPressable />
+      {/* <MyPressable /> */}
+      <MyView />
     </View>
   );
 };
