@@ -8,7 +8,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MyKeyboardAvoidingView} from './app/components/MyKeyboardAvoidingView';
 // import {MyModal} from './app/components/MyModal';
 // import {MyPressable} from './app/components/MyPressable';
-import {MyView} from './app/components/MyView';
+// import {MyView} from './app/components/MyView';
+import {MyTextInput} from './app/components/MyTextInput';
 
 export const App = () => {
   return (
@@ -21,7 +22,8 @@ export const App = () => {
       {/* <MyKeyboardAvoidingView /> */}
       {/* <MyModal /> */}
       {/* <MyPressable /> */}
-      <MyView />
+      {/* <MyView /> */}
+      <MyTextInput />
     </View>
   );
 };
