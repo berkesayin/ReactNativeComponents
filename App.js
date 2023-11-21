@@ -10,7 +10,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MyPressable} from './app/components/MyPressable';
 // import {MyView} from './app/components/MyView';
 // import {MyTextInput} from './app/components/MyTextInput';
-import {MyText} from './app/components/MyText';
+// import {MyText} from './app/components/MyText';
+import {MySwitch} from './app/components/MySwitch';
 
 export const App = () => {
   return (
@@ -25,7 +26,8 @@ export const App = () => {
       {/* <MyPressable /> */}
       {/* <MyView /> */}
       {/* <MyTextInput /> */}
-      <MyText />
+      {/* <MyText /> */}
+      <MySwitch />
     </View>
   );
 };
