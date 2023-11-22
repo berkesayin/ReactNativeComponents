@@ -11,7 +11,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MyView} from './app/components/MyView';
 // import {MyTextInput} from './app/components/MyTextInput';
 // import {MyText} from './app/components/MyText';
-import {MySwitch} from './app/components/MySwitch';
+// import {MySwitch} from './app/components/MySwitch';
+import {MyRefreshControl} from './app/components/MyRefreshControl';
 
 export const App = () => {
   return (
@@ -27,7 +28,8 @@ export const App = () => {
       {/* <MyView /> */}
       {/* <MyTextInput /> */}
       {/* <MyText /> */}
-      <MySwitch />
+      {/* <MySwitch /> */}
+      <MyRefreshControl />
     </View>
   );
 };
