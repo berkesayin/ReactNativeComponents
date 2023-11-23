@@ -12,7 +12,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MyTextInput} from './app/components/MyTextInput';
 // import {MyText} from './app/components/MyText';
 // import {MySwitch} from './app/components/MySwitch';
-import {MyRefreshControl} from './app/components/MyRefreshControl';
+// import {MyRefreshControl} from './app/components/MyRefreshControl';
+import {MyTouchableOpacity} from './app/components/MyTouchableOpacity';
 
 export const App = () => {
   return (
@@ -29,7 +30,8 @@ export const App = () => {
       {/* <MyTextInput /> */}
       {/* <MyText /> */}
       {/* <MySwitch /> */}
-      <MyRefreshControl />
+      {/* <MyRefreshControl /> */}
+      <MyTouchableOpacity />
     </View>
   );
 };
