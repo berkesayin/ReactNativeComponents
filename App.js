@@ -14,7 +14,8 @@ import {View, StyleSheet} from 'react-native';
 // import {MySwitch} from './app/components/MySwitch';
 // import {MyRefreshControl} from './app/components/MyRefreshControl';
 // import {MyTouchableOpacity} from './app/components/MyTouchableOpacity';
-import {MyTouchableWithoutFeedback} from './app/components/MyTouchableWithoutFeedback';
+// import {MyTouchableWithoutFeedback} from './app/components/MyTouchableWithoutFeedback';
+import {MyScrollView} from './app/MyScrollView';
 
 export const App = () => {
   return (
@@ -33,7 +34,8 @@ export const App = () => {
       {/* <MySwitch /> */}
       {/* <MyRefreshControl /> */}
       {/* <MyTouchableOpacity /> */}
-      <MyTouchableWithoutFeedback />
+      {/* <MyTouchableWithoutFeedback /> */}
+      <MyScrollView />
     </View>
   );
 };
