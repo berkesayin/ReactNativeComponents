@@ -15,7 +15,7 @@ import {View, StyleSheet} from 'react-native';
 // import {MyRefreshControl} from './app/components/MyRefreshControl';
 // import {MyTouchableOpacity} from './app/components/MyTouchableOpacity';
 // import {MyTouchableWithoutFeedback} from './app/components/MyTouchableWithoutFeedback';
-import {MyScrollView} from './app/MyScrollView';
+import {MyScrollView} from './app/components/MyScrollView';
 
 export const App = () => {
   return (
