@@ -8,15 +8,16 @@ import {View, StyleSheet} from 'react-native';
 // import {MyKeyboardAvoidingView} from './app/components/MyKeyboardAvoidingView';
 // import {MyModal} from './app/components/MyModal';
 // import {MyPressable} from './app/components/MyPressable';
-// import {MyView} from './app/components/MyView';
-// import {MyTextInput} from './app/components/MyTextInput';
-// import {MyText} from './app/components/MyText';
-// import {MySwitch} from './app/components/MySwitch';
 // import {MyRefreshControl} from './app/components/MyRefreshControl';
+// import {MyScrollView} from './app/components/MyScrollView';
+// import {MySectionList} from './app/components/MySectionList';
+import {MyStatusBar} from './app/components/MyStatusBar';
+// import {MySwitch} from './app/components/MySwitch';
+// import {MyText} from './app/components/MyText';
+// import {MyTextInput} from './app/components/MyTextInput';
 // import {MyTouchableOpacity} from './app/components/MyTouchableOpacity';
 // import {MyTouchableWithoutFeedback} from './app/components/MyTouchableWithoutFeedback';
-// import {MyScrollView} from './app/components/MyScrollView';
-import {MySectionList} from './app/components/MySectionList';
+// import {MyView} from './app/components/MyView';
 
 export const App = () => {
   return (
@@ -29,15 +30,16 @@ export const App = () => {
       {/* <MyKeyboardAvoidingView /> */}
       {/* <MyModal /> */}
       {/* <MyPressable /> */}
-      {/* <MyView /> */}
-      {/* <MyTextInput /> */}
-      {/* <MyText /> */}
-      {/* <MySwitch /> */}
       {/* <MyRefreshControl /> */}
+      {/* <MyScrollView /> */}
+      {/* <MySectionList /> */}
+      <MyStatusBar />
+      {/* <MySwitch /> */}
+      {/* <MyText /> */}
+      {/* <MyTextInput /> */}
       {/* <MyTouchableOpacity /> */}
       {/* <MyTouchableWithoutFeedback /> */}
-      {/* <MyScrollView /> */}
-      <MySectionList />
+      {/* <MyView /> */}
     </View>
   );
 };
